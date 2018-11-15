@@ -3,6 +3,7 @@ import Vue from 'vue'
 import './plugins/vuetify'
 import './plugins/vuetrend'
 import App from './App.vue'
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 
