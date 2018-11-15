@@ -1,6 +1,6 @@
 {
-  "name": "client",
-  "short_name": "client",
+  "name": "Love IPL",
+  "short_name": "LoveIPL",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
