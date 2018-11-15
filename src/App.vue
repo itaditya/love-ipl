@@ -32,6 +32,10 @@
     </v-navigation-drawer>
     <v-content>
       <div class="content">
+        <section v-if="$vuetify.breakpoint.mdAndDown" class="stat-section">
+          <Boundaries />
+          <Leaderboard/>
+        </section>
         <section class="player-section">
           <PlayerStats/>
         </section>
@@ -51,6 +55,10 @@
   .sidebar {
     background-color: transparent;
     padding: 40px 10px 0;
+  }
+
+  .stat-section {
+    margin-top: 40px;
   }
 
   .player-section {
